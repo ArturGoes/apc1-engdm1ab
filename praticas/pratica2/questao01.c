@@ -19,7 +19,7 @@ int main() {
   deu_certo = scanf("%f", &numero3);
 
   media = (numero1 + numero2 + numero3) / 3;
-  printf("A media aritmetica dos numeros %.2f, %.2f e %.2f é %.2f\n", numero1, numero2, numero3, media);
+  printf("A media aritmetica dos numeros %.f, %.f e %.f é: %.f\n", numero1, numero2, numero3, media);
   
   return 0;
 }

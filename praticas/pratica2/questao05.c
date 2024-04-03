@@ -8,13 +8,13 @@ int main() {
   float altura;
   float imc;
 
-  printf("Entre com o peso: ");
+  printf("Digite o peso em kg: ");
   int deu_certo = scanf("%f", &peso);
 
-  printf("Entre com a altura: ");
+  printf("Digite a altura em cm: ");
   deu_certo = scanf("%f", &altura);
   
-  imc = peso / pow(altura, 2);
+  imc = peso / (altura * altura);
   printf("O imc é %.2f\n", imc);
   
   return 0;

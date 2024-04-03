@@ -3,6 +3,10 @@
 #include <stdio.h>
 
 int main() {
+  int raio;
+  float perimetro = 2 * 3.1416 * raio;
+
+  printf("O perimetro da pizza é %.2f\n", perimetro);
   
   return 0;
 }

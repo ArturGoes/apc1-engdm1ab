@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
   float nota1 = 5.5f;

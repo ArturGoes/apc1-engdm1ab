@@ -8,13 +8,13 @@ int main () {
   float angulo;
   float altura;
 
-  printf("Entre com a distancia percorrida: ");
+  printf("Entre com a distancia percorrida em km: ");
   int deu_certo = scanf("%f", &distancia);
 
   printf("Entre com o angulo de inclinação: ");
   deu_certo = scanf("%f", &angulo);
 
-  altura = sin(angulo) * distancia;
+  altura = distancia * sin(angulo * M_PI / 180);
   printf("A altura alcançada pelo avião é %.2f\n", altura);
  
   return 0;
